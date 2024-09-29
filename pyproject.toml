@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "chunky"
+version = "1.0.0"
+description = "Chunky is a desktop assistant that breaks down assignments into manageable tasks, helping students stay focused and productive."
+authors = ["AfterNoon PM <h2o.Drop2010+chunky@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+huggingface-hub = "^0.25.1"
+
+[tool.poetry.group.dev.dependencies]
+build = "^1.2.2"
+flake8 = "^7.1.1"
+pytest = "^8.3.3"
+twine = "^5.1.1"
+wheel = "^0.44.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
